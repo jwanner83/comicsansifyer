@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "comicsansifyer - let's make comic sans great again",
+  "version": "1.0",
+
+  "description": "Comic Sans, it's your time to shine.",
+  "homepage_url": "https://upscore.ch/",
+
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "comicsansifyer - let's make comic sans great again"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["comicsanseverywhere.css"]
+    }
+  ]
+}
