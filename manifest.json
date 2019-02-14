@@ -1,16 +1,11 @@
 {
 
   "manifest_version": 2,
-  "name": "comicsansifyer - let's make comic sans great again",
+  "name": "comicsansifyer",
   "version": "1.0",
 
-  "description": "Comic Sans, it's your time to shine.",
+  "description": "Let's make Comic Sans MS great again!",
   "homepage_url": "https://upscore.ch/",
-
-  "browser_action": {
-    "browser_style": true,
-    "default_title": "comicsansifyer - let's make comic sans great again"
-  },
 
   "content_scripts": [
     {
